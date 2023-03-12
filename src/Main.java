@@ -1,4 +1,4 @@
-public class Main {
+public class Main{
     public static void main(String[] args) {
         // Create a few Book objects
         Book book1 = new Book("To Kill a Mockingbird", "Harper Lee", "978-0446310789", 281, 7.69);

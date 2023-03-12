@@ -15,33 +15,75 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
-    // Getters and setters
+
+    /**
+     * @return String return the firstName
+     */
     public String getFirstName() {
         return firstName;
     }
 
+    /**
+     * @param firstName the firstName to set
+     */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    /**
+     * @return String return the lastName
+     */
     public String getLastName() {
         return lastName;
     }
 
+    /**
+     * @param lastName the lastName to set
+     */
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
+    /**
+     * @return int return the age
+     */
     public int getAge() {
         return age;
     }
 
+    /**
+     * @param age the age to set
+     */
     public void setAge(int age) {
         this.age = age;
     }
 
+    /**
+     * @return String return the gender
+     */
     public String getGender() {
         return gender;
     }
 
-    public void setGender(String gender)
+    /**
+     * @param gender the gender to set
+     */
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    /**
+     * @return String return the phoneNumber
+     */
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    /**
+     * @param phoneNumber the phoneNumber to set
+     */
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+}
